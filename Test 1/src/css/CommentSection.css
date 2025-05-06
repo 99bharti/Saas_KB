@@ -1,0 +1,59 @@
+.comment-section {
+    background-color: #1a2a44;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 100%;
+    width: 100%;
+    margin: 80px auto 20px; /* Increased top margin to 60px for more space */
+    box-sizing: border-box;
+  }
+  
+  .comment-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input,
+  .form-row textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #2d4060;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  .form-row input {
+    height: 40px;
+  }
+  
+  .form-row textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #c06; /* Revert to original purple if needed, or keep #cc0066 */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background-color: #cc0066; /* Adjust hover color if using #cc0066 */
+  }
