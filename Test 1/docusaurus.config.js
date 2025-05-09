@@ -7,11 +7,12 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: url: 'https://99bharti.github.io',
+  baseUrl: '/Saas_KB/',
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: '99bharti',   // ✅ GitHub username
+  projectName: 'Saas_KB',         // ✅ GitHub repo name
+  
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -20,7 +21,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  
   presets: [
     [
       'classic',
