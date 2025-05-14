@@ -7,7 +7,7 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
-  url: url: 'https://99bharti.github.io',
+  url:'https://99bharti.github.io',
   baseUrl: '/Saas_KB/',
 
   organizationName: '99bharti',   // ✅ GitHub username
